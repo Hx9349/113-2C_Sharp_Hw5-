@@ -9,8 +9,8 @@ namespace Chap13Test3_3
         }
         private void label1_MouseDown(object sender, MouseEventArgs e)
         {
-            label1.BackColor = (e.Button == MouseButtons.Left) ? Color.Red : 
-                (e.Button == MouseButtons.Right) ? Color.Green :label1.BackColor;
+            label1.BackColor = (e.Button == MouseButtons.Left) ? Color.Green : 
+                (e.Button == MouseButtons.Right) ? Color.YelloW :label1.BackColor;
         }
     }
 }
